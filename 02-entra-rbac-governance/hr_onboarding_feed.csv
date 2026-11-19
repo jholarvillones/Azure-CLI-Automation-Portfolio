@@ -1,0 +1,4 @@
+DisplayName,UserPrincipalName,Department,JobTitle,RbacRole
+Juan Dela Cruz,jdelacruz,Cloud-Security,Cloud Security Analyst,Security Reader
+Maria Santos,msantos,Platform-Eng,Azure Infrastructure Engineer,Virtual Machine Contributor
+Carlos Reyes,creyes,FinOps,Cloud Cost Auditor,Reader

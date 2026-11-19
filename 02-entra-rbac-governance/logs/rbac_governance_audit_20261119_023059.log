@@ -1,0 +1,20 @@
+==================================================================
+ Starting Automated Identity & RBAC Governance Run
+ Target Subscription: <REDACTED-SUBSCRIPTION-ID>
+ Timestamp (UTC): 2026-11-19 02:30:59 UTC
+==================================================================
+[INFO] Processing Employee: Juan Dela Cruz (Cloud Security Analyst) -> Dept: Cloud-Security
+  [=] Security Group already exists: SG-Azure-Cloud-Security (b3d181d4-e452-4b6a-8beb-3bca13494e84)
+  [+] Enforcing RBAC Role 'Security Reader' on Group 'SG-Azure-Cloud-Security'
+  [SUCCESS] Governance policy applied for Juan Dela Cruz.
+------------------------------------------------------------------
+[INFO] Processing Employee: Maria Santos (Azure Infrastructure Engineer) -> Dept: Platform-Eng
+  [=] Security Group already exists: SG-Azure-Platform-Eng (c72dbce5-8167-480b-af51-6005d5d39fbd)
+  [+] Enforcing RBAC Role 'Virtual Machine Contributor' on Group 'SG-Azure-Platform-Eng'
+  [SUCCESS] Governance policy applied for Maria Santos.
+------------------------------------------------------------------
+[INFO] Processing Employee: Carlos Reyes (Cloud Cost Auditor) -> Dept: FinOps
+  [=] Security Group already exists: SG-Azure-FinOps (50f1b0a6-5add-418c-950e-60b8e31fdcec)
+  [+] Enforcing RBAC Role 'Reader' on Group 'SG-Azure-FinOps'
+  [SUCCESS] Governance policy applied for Carlos Reyes.
+------------------------------------------------------------------
